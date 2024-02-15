@@ -1,18 +1,18 @@
 {
-  "name": "SITHUWA-MD",
-  "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://telegra.ph/file/90ecbecc7dcfb93ede0fa.jpg",
+  "name": "CYBER-AYESH",
+  "description": "SUPER BOT #1",
+  "logo": "https://telegra.ph/file/b29ba40293f2c695262e0.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "Sithuwa Bot", "sithuwa","SITHUWA-MD","theme bot","multi device","baileys","Sithum Kalhara"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
   "description": "BOT OWNER NAME", 
-      "value": "Sithum Kalhara"
+      "value": "CYBER AYESH"
   },
   "ALIVE_MESSAGE": {
-    "description": " SET YOUR ALIVE MESSAGE FOR THE BOT",
-     "required" :false
+    "description": " මැරිලා නැ යකෝ ඉන්නවා 🥰🥺",
+     "required" :true
     },
     "AUTO_STATUS_SAVER": {
       "description": "Automatically saves status of every person and sends in log number.",
@@ -33,16 +33,16 @@
     },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL for bot.",
-     "value": "https://telegra.ph/file/15b1dd8aeaa47888d75d7.jpg"
+     "value": "https://telegra.ph/file/b29ba40293f2c695262e0.jpg"
     },
     "ANTI_BAD_WORD": {
-    "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
-     "required" :false
+    "description": "xxx,fuck,puzzy,sex",
+     "required" :true
     },
    "ANTILINK_VALUES": {
     "description": "Put words for antilink",
-     "value": "chat.whatsapp.com",
-     "required" :false
+     "value": "https://chat.whatsapp.com/D4eytSR8uFxG1DkOpnlFyP",
+     "required" :true
     },
      "ANTILINK_ACTION": {
     "description": "Put action for antilink",
@@ -70,7 +70,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "94761516805"
+       "value": "94775341543"
   },
    "SESSION_ID": {
     "description": "Please put your Session ID that u scanned from the bot.... If u haven't scanned go to SITHUWA-MD Github Repo U can find the Scanner Option"
@@ -86,7 +86,7 @@
   },
     "THEME": {
     "description": "Put the theme name you want to use. Avilable theme are sithuwa-md.(AVOID CHANGING)",
-     "value": "sithuwa-md"
+     "value": "Cyber-ayesh"
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
@@ -99,11 +99,11 @@
   },
   "PACK_AUTHOR": {
     "description": "PUT STICKER AUTHER NAME",
-    "value": "SITHUWA:"
+    "value": "CYBER-AYESH:"
   },
   "PACK_NAME": {
     "description": "PUT STICKER PACK NAME",
-    "value": "SITHUWA-MD"
+    "value": "CYBER-AYESH"
   },
   "heroku": {
     "description": "Weather it is on heroku or not", 
